@@ -38,7 +38,7 @@ const updateData = async (req, res) => {
   var update = { name: 'allocateRandomNumber', options: { min: 1, max: 100 } };
   update = req.body || update;
   try {
-    const completeData = await datasetGenerator.queryDataset();
+    const completeData = await datasetService.queryDataset();
     var flag = false;
     completeData.forEach(async (doc) => {
       if (update?.name.includes("allocateRandomNumber")) {
@@ -65,7 +65,7 @@ const getCountryWisePopulation = async (req, res) => {
 
     const currentTimestamp = Date.now();
 
-    const result = await datasetGenerator.groupByCountry(filter);
+    const result = await datasetService.groupByCountry(filter);
 
     console.log(result);
     const currentTimestamp2 = Date.now();
@@ -86,7 +86,7 @@ const getCountryWisePopulation_application = async (req, res) => {
     const filter = req.query;
 
     const currentTimestamp = Date.now();
-    var result = await datasetGenerator.queryDataset(filter);
+    var result = await datasetService.queryDataset(filter);
 
     console.log(`Fetched ${result.length || 0} documents`);
 
@@ -143,7 +143,7 @@ const complexAggregation_application = async (req, res) => {
     const filter = req.query;
 
     const currentTimestamp = Date.now();
-    var result = await datasetGenerator.queryDataset(filter);
+    var result = await datasetService.queryDataset(filter);
 
     console.log(`Fetched ${result.length || 0} documents`);
 
