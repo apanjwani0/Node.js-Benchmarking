@@ -17,7 +17,7 @@ This project benchmarks both approaches to help guide better decision-making in 
 
 ## Results
 
-You can see the performance comparisons below. For a more detailed view, check out the [screenshots](#screenshots).
+For detailed logs around the result, check out the [Screenshots README](./screenshots/README.md).
 
 ## Getting Started
 
@@ -30,4 +30,17 @@ You can see the performance comparisons below. For a more detailed view, check o
 3. Run the server
     ```bash
     npm run dev
-4. Hit the API with custom params
+4. Hit the API with custom parameters:
+
+   - **For database-side processing:**
+     ```bash
+     curl --location 'http://localhost:3000/api/complexAggregation?min=1&max=1000'
+     ```
+
+   - **For application-side processing:**
+     ```bash
+     curl --location 'http://localhost:3000/api/application/complexAggregation?min=1&max=1000'
+     ```
+
+    #### Notes:
+    - Adjust the `min` and `max` parameters to set the range of data being processed.
