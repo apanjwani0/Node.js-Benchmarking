@@ -11,8 +11,8 @@ This folder contains benchmark comparison images for the MongoDB Benchmarking pr
     <th>Database-Level Processing</th>
   </tr>
   <tr>
-    <td><img src="./Index%20[1-1]%20-%20Application%20Level.png" alt="Application-Level Small Dataset" width="400"/></td>
-    <td><img src="./Index%20[1-1]%20-%20DB%20Level.png" alt="Database-Level Small Dataset" width="400"/></td>
+    <td><img src="./Index[1-1]-ApplicationLevel.png" alt="Application-Level Small Dataset" width="400"/></td>
+    <td><img src="./Index[1-1]-DBLevel.png" alt="Database-Level Small Dataset" width="400"/></td>
   </tr>
 </table>
 
@@ -23,8 +23,8 @@ This folder contains benchmark comparison images for the MongoDB Benchmarking pr
     <th>Database-Level Processing</th>
   </tr>
   <tr>
-    <td><img src="./Index%20[1-10]%20-%20Application%20Level.png" alt="Application-Level Medium Dataset" width="400"/></td>
-    <td><img src="./Index%20[1-10]%20-%20DB%20Level.png" alt="Database-Level Medium Dataset" width="400"/></td>
+    <td><img src="./Index[1-10]-ApplicationLevel.png" alt="Application-Level Medium Dataset" width="400"/></td>
+    <td><img src="./Index[1-10]-DBLevel.png" alt="Database-Level Medium Dataset" width="400"/></td>
   </tr>
 </table>
 
@@ -35,8 +35,8 @@ This folder contains benchmark comparison images for the MongoDB Benchmarking pr
     <th>Database-Level Processing</th>
   </tr>
   <tr>
-    <td><img src="./Index%20[1-100]%20-%20Application%20Level.png" alt="Application-Level Large Dataset" width="400"/></td>
-    <td><img src="./Index%20[1-100]%20-%20DB%20Level.png" alt="Database-Level Large Dataset" width="400"/></td>
+    <td><img src="./Index[1-100]-ApplicationLevel.png" alt="Application-Level Large Dataset" width="400"/></td>
+    <td><img src="./Index[1-100]-DBLevel.png" alt="Database-Level Large Dataset" width="400"/></td>
   </tr>
 </table>
 
@@ -47,7 +47,7 @@ This folder contains benchmark comparison images for the MongoDB Benchmarking pr
     <th>Database-Level Processing</th>
   </tr>
   <tr>
-    <td><img src="./Index%20[1-1000]%20-%20Application%20Level.png" alt="Application-Level Extra Large Dataset" width="400"/></td>
-    <td><img src="./Index%20[1-1000]%20-%20DB%20Level.png" alt="Database-Level Extra Large Dataset" width="400"/></td>
+    <td><img src="./Index[1-1000]-ApplicationLevel.png" alt="Application-Level Extra Large Dataset" width="400"/></td>
+    <td><img src="./Index[1-1000]-DBLevel.png" alt="Database-Level Extra Large Dataset" width="400"/></td>
   </tr>
 </table>
