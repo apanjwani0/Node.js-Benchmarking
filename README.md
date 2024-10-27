@@ -1,6 +1,6 @@
-# MongoDB Benchmarking
+# Node.js Benchmarking
 
-This repository explores different approaches to data processing with MongoDB and Node.js. It focuses on comparing the performance of processing data at the database level versus the application level.
+This repository explores different approaches to data processing with Node.js and MongoDB. It focuses on comparing the performance of processing data at the database level versus the application level.
 
 ## Overview
 
